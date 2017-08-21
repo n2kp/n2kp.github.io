@@ -116,6 +116,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  text-align: center;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -261,12 +262,20 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.6;
 }
 #call-to-action .btn-call-to-action {
-  padding: 15px 35px;
-  border: none;
+  padding: 10px 20px;
+  border: 1px solid #333333;
+  border-radius: 5px;
   background-color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   color: #333333;
   margin-top: 30px;
+  text-align: center;
+}
+#call-to-action .btn-call-to-action:hover {
+  background-color: #333333;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 /*--
 	Feature Start
@@ -299,14 +308,22 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+  color: #333333;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
+  color: #333333;
+  text-align: center;
+  border: 2px solid #333333;
+  border-radius: 5px;
   padding: 10px 20px;
+  font-size: 16px;
 }
+#feature .btn-view-works:hover {
+  background-color: #333333;
+  color: white;
+}
+
 /*--
 	content Start
 --*/
@@ -329,7 +346,8 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 30px 0 30px;
 }
 #testimonial .counter-box li i {
-  font-size: 35px;
+  font-size: 60px;
+  color: #333333;
 }
 #testimonial .counter-box li h4 {
   font-size: 30px;
@@ -875,15 +893,34 @@ footer .footer-manu ul li a:hover {
 }
 #project-description p {
   font-size: 18px;
+  color: #333333;
 }
 #project-description a {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #333333;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 20px;
   margin-left: 20px;
   margin-right: 20px;
+}
+#projo-btn {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#projo-btn a:hover {
+  background-color: #333333;
+  color: white;
+}
+#projo-btn i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+#projo-btn a {
+  color: #333333;
 }
 #project-tech {
   text-align: center;
