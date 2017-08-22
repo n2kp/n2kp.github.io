@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Angular vs. React: Which Is Better for Web Development?
+title: Angular vs. React?
 subtitle: There are countless articles out there debating whether React or Angular is the better choice for web development. Do we need yet another one?
 date: 2017-08-08 00:00:00
 author: Brandon Morelli
